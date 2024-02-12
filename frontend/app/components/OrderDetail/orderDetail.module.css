@@ -1,0 +1,63 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > boxSurface {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.container:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.orderContainer.boxSurface{
+  border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+.orderContainer.boxSurface:hover,
+.orderContainer.boxSurface:focus {
+  border: 2px solid transparent;
+}
+
+.boxSurface {
+  appearance: none;
+  background: none;
+  font-size: 32px;
+  border-radius: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.boxSurface:hover,
+.boxSurface:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.boxSurface:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
