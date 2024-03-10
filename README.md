@@ -1,4 +1,7 @@
-# rtk-code-sample-fullstack
+# rtk-code-sample-fullstack-assignment-no-store
+
+Assignment - no store
+
 ### 1. Install npm dependencies:
 
 Install dependencies 
